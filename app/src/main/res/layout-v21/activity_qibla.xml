@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#F1F6FA"
+    tools:context=".activities.QiblaActivity">
+
+    <LinearLayout
+        android:id="@+id/myLinear"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:orientation="vertical"
+        android:background="@drawable/compassbac">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/qaytish"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:onClick="dicbacpressed"
+            android:textColor="#fff"
+            app:drawableStartCompat="@drawable/ic_baseline_arrow_left_24"
+            android:layout_marginStart="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#fff"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/qibla_joylashuvi"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+    android:id="@+id/linear2"
+    android:layout_below="@id/myLinear"
+    android:layout_width="match_parent"
+    android:background="#1D81C1"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/txtDegrees"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/degreebac"
+        android:gravity="center"
+        android:textColor="#000"
+        android:text="@string/degrees"
+        android:textSize="18sp"/>
+</LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/seconlinear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#1D81C1"
+        android:layout_below="@id/linear2"
+        android:weightSum="6"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@drawable/compasbottom"
+            android:layout_weight="5.7">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imgCompass"
+                android:rotation="-20"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/compassqibla"
+                android:padding="60dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

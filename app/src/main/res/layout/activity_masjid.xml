@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="30dp"
+    tools:context=".activities.MasjidActivity">
+
+    <LinearLayout
+        android:id="@+id/appstatus"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="match_parent"
+        android:background="#1D81C1"
+        android:layout_height="?android:attr/actionBarSize"
+        android:weightSum="1"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/orqaga"
+            android:onClick="ortga"
+            android:layout_marginStart="15dp" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="@string/app_name"/>
+
+    </LinearLayout>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:textSize="18sp"
+    android:text="Hududlar"
+    android:textColor="#000"
+    android:fontFamily="sans-serif-medium"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:orientation="vertical">
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#E1DCDC" />
+
+           <TextView
+               android:id="@+id/toshkentShahar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Toshkent shahar"
+            android:layout_margin="15dp"
+            android:textColor="#000"
+               android:onClick="searchLocation"
+            android:textSize="18sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#E1DCDC" />
+
+            <TextView
+                android:id="@+id/toshkentViloyati"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Toshkent viloyati"
+                android:layout_margin="15dp"
+                android:textColor="#000"
+                android:onClick="searchLocation"
+                android:textSize="18sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#E1DCDC" />
+
+            <TextView
+                android:onClick="searchLocation"
+                android:id="@+id/andijonViloyati"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. Andijon viloyati"
+                android:layout_margin="15dp"
+                android:textColor="#000"
+                android:textSize="18sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#E1DCDC" />
+
+            <TextView
+                android:id="@+id/buxoroViloyati"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. Buxoro viloyati"
+                android:layout_margin="15dp"
+                android:textColor="#000"
+                android:onClick="searchLocation"
+                android:textSize="18sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#E1DCDC" />
+
+            <TextView
+                android:id="@+id/samarqandViloyati"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5. Samarqand viloyati"
+                android:layout_margin="15dp"
+                android:textColor="#000"
+                android:onClick="searchLocation"
+                android:textSize="18sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#E1DCDC" />
+
+            <TextView
+                android:id="@+id/sirdaryoViloyati"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6. Sirdaryo viloyati"
+                android:layout_margin="15dp"
+                android:textColor="#000"
+                android:onClick="searchLocation"
+                android:textSize="18sp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#E1DCDC" />
+            <TextView
+                android:id="@+id/fargonaViloyati"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="7. Farg'ona viloyati"
+                android:layout_margin="15dp"
+                android:textColor="#000"
+                android:onClick="searchLocation"
+                android:textSize="18sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#E1DCDC" />
+
+            <TextView
+                android:id="@+id/xorazmViloyati"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="8. Xorazm viloyati"
+                android:layout_margin="15dp"
+                android:onClick="searchLocation"
+                android:textColor="#000"
+                android:textSize="18sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#E1DCDC" />
+
+            <TextView
+                android:id="@+id/jizzaxViloyati"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="9. Jizzax viloyati"
+                android:layout_margin="15dp"
+                android:textColor="#000"
+                android:onClick="searchLocation"
+                android:textSize="18sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#E1DCDC" />
+
+            <TextView
+                android:id="@+id/navoiyViloyati"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="10. Navoiy viloyati"
+                android:layout_margin="15dp"
+                android:textColor="#000"
+                android:onClick="searchLocation"
+                android:textSize="18sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#E1DCDC" />
+
+            <TextView
+                android:id="@+id/qashqadaryoViloyati"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="11. Qashqadaryo viloyati"
+                android:layout_margin="15dp"
+                android:textColor="#000"
+                android:onClick="searchLocation"
+                android:textSize="18sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#E1DCDC" />
+
+
+            <TextView
+                android:id="@+id/namanganViloyati"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="12. Namangan viloyati"
+                android:layout_margin="15dp"
+                android:textColor="#000"
+                android:onClick="searchLocation"
+                android:textSize="18sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#E1DCDC" />
+
+            <TextView
+                android:id="@+id/surxandaryoViloyati"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="13. Surxandaryo viloyati"
+                android:layout_margin="15dp"
+                android:textColor="#000"
+                android:onClick="searchLocation"
+                android:textSize="18sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#E1DCDC" />
+
+            <TextView
+                android:id="@+id/qoraqalpogiston"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="14. Qoraqalpog'iston"
+                android:layout_margin="15dp"
+                android:textColor="#000"
+                android:onClick="searchLocation"
+                android:textSize="18sp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="10dp"
+                android:background="#E1DCDC" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

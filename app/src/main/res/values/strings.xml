@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Masjid in Uzbekistan</string>
+    <string name="image">Image</string>
+    <string name="do_stlarga_ulashish">Do\'stlarga ulashish</string>
+    <string name="masjidlar">Masjidlar</string>
+    <string name="manbalar">Manbalar</string>
+    <string name="eng_yaqin_masjid">Eng yaqin masjidlar</string>
+    <string name="qidiruv">Qidiruv</string>
+    <string name="qibla">Qibla</string>
+    <string name="rasmlar">Rasmlar</string>
+    <string name="qaytish">Qaytish</string>
+    <string name="foydali_manbalar">Foydali Manbalar</string>
+    <string name="youtube">You Tube</string>
+    <string name="telegramm">Telegram</string>
+    <string name="masjid_uz">Masjid.uz</string>
+    <string name="al_masjid_uz">Al masjid uz</string>
+    <string name="sharq_uz">Xizr Abdulkarim</string>
+    <string name="hayotfalsafasi">Hayot Falsafasi</string>
+    <string name="MADINA">Madina studio TV</string>
+    <string name="qibla_joylashuvi">Qibla joylashuvi</string>
+    <string name="degrees">degrees</string>
+    <string name="arabic_uz">Arabic.uz</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="toshkent">Toshken</string>
+    <string name="bomdod">Bomdod</string>
+    <string name="peshin">Peshin</string>
+    <string name="asr">Asr</string>
+    <string name="shom">Shom</string>
+    <string name="xufton">Xufton</string>
+    <string name="bomdod_ertangi">Bomdod(ertangi)</string>
+    <string name="sunrise">Quyosh chiqishi</string>
+    <string name="notifoff">O\'chirilgan</string>
+    <string name="yoqilgan">Yoqilgan</string>
+</resources>
